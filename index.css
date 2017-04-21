@@ -1,0 +1,87 @@
+.mF_YSlider_myFocus * { margin: 0px; padding: 0px; border: 0px none; list-style: outside none none; }
+.mF_YSlider_myFocus { position: relative; width: 925px; height: 528px; overflow: hidden; font: 12px/1.5 Verdana; text-align: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; visibility: visible ! important; }
+.mF_YSlider_myFocus .pic { position: relative; width: 925px; height: 528px; overflow: hidden; }
+.mF_YSlider_myFocus .txt li { width: 925px; overflow: hidden; }
+/* ::::: http://www.unclema.com/skin/default/style/style.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: inherit; font-language-override: inherit; font-kerning: inherit; font-synthesis: inherit; font-variant: inherit; font-size: 100%; vertical-align: baseline; }
+html { line-height: 1; }
+ol, ul { list-style: outside none none; }
+q::before, q::after, blockquote::before, blockquote::after { content: none; }
+a img { border: medium none; }
+body { background: transparent url('bg.png') repeat scroll 0% 0%; }
+.w990 { width: 990px; margin: 0px auto; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.header { height: 238px; background: transparent url('header_bg.png') no-repeat scroll left top; }
+.header .logo { right: 60px; top: 6px; }
+.header .nav a { bottom: 60px; transition: all 0.25s ease-out 0.15s; }
+.header .nav a:hover { transform: translateY(10px); }
+.header .nav a.nav_btn1 { left: 50px; }
+.header .nav a.nav_btn2 { left: 200px; }
+.header .nav a.nav_btn3 { left: 360px; }
+.header .nav a.nav_btn4 { left: 520px; }
+.focus { background: transparent url('repeatbg.png') repeat-y scroll left center; padding-bottom: 10px; height: 480px; }
+.focus .focus_box { width: 925px; height: 528px; overflow: hidden; background-color: rgb(87, 68, 56); top: -40px; left: 30px; border-radius: 15px; }
+.seemark_t { height: 114px; overflow: hidden; }
+.seemark { background: transparent url('repeatbg.png') repeat-y scroll 1px center; padding-bottom: 10px; }
+.seemark .seemark_c { width: 956px; margin: 0px auto; text-align: justify; }
+.seemark .seemark_c .seemark_box { display: inline-block; width: 233px; height: 278px; overflow: hidden; background: transparent url('index_box_bg.png') no-repeat scroll left top; text-align: center; transition: all 0.5s ease-out 0.2s; }
+.seemark .seemark_c .seemark_box span { display: inline-block; width: 200px; height: 215px; overflow: hidden; margin-top: 20px; border-radius: 10px; }
+.seemark .seemark_c .seemark_box p { padding: 4px 0px; }
+.seemark .seemark_c .seemark_box p a { font-size: 12px; color: rgb(86, 67, 55); text-decoration: none; padding: 0px 8px; font-family: "微软雅黑","Arial","宋体"; }
+.earlyknow_t { height: 122px; overflow: hidden; }
+.earlyknow { background: transparent url('repeatbgx.png') repeat-y scroll 0px center; padding-bottom: 10px; }
+.earlyknow .earlyknow_c { width: 925px; height: 350px; overflow: hidden; margin: 0px auto; border-radius: 15px; }
+.earlyknow .cookie { top: 200px; right: 0px; z-index: 9999; transition: all 1s ease-out 0.2s; }
+.earlyknow .cookie:hover { transform: rotate(360deg); }
+.telbox { position: fixed; top: 40px; right: 50%; margin-right: 490px; }
+.lxmk_btn, .scmk_btn, .zdmk_btn { display: block; width: 175px; height: 60px; }
+.lxmk_btn { top: 90px; left: 240px; }
+.scmk_btn { top: 90px; left: 500px; }
+.zdmk_btn { top: 90px; left: 780px; }
+.footer p, .sub_footer p { display: none; }
+/* ::::: http://www.unclema.com/skin/default/js/mf-pattern/mF_YSlider.css ::::: */
+
+.mF_YSlider { position: relative; }
+.mF_YSlider .pic li, .mF_YSlider .rePic li { position: absolute; top: 0px; left: 0px; display: none; }
+.mF_YSlider .num { position: absolute; z-index: 3; bottom: 8px; right: 2px; }
+.mF_YSlider .num li { position: relative; float: left; width: 20px; height: 20px; overflow: hidden; text-align: center; margin-right: 4px; cursor: pointer; }
+.mF_YSlider .num li a, .mF_YSlider .num li b { display: block; width: 18px; height: 18px; border: 1px solid rgb(222, 222, 222); line-height: 18px; position: absolute; z-index: 2; top: 0px; left: 0px; color: rgb(51, 51, 51); text-decoration: none; }
+.mF_YSlider .num li b { z-index: 1; background: rgb(255, 255, 255) none repeat scroll 0% 0%; opacity: 0.6; }
+.mF_YSlider .num li.current a, .mF_YSlider .num li.hover a { border-color: rgb(230, 48, 3); color: rgb(255, 255, 255); background: rgb(246, 110, 8) none repeat scroll 0% 0%; transition: all 0.4s ease 0s; }
+/* ::::: http://lxbjs.baidu.com/float/asset/custom.css ::::: */
+
+#LXB_CONTAINER, #LXB_CONTAINER_SHOW, #LXB_CONTAINER_SHOW ins, #LXB_CONTAINER ins, #LXB_CONTAINER em, #LXB_CONTAINER a, #LXB_CONTAINER img, #LXB_CONTAINER input { width: auto; height: auto; margin: 0px; padding: 0px; background: transparent none repeat scroll 0px 0px; border: medium none; color: black; direction: ltr; letter-spacing: normal; line-height: normal; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: normal; font-size: 12px; font-family: Tahoma,"宋体",Helvetica,sans-serif; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: normal; visibility: visible; overflow: visible; list-style: outside none none; float: none; clear: none; display: block; position: static; top: auto; left: auto; vertical-align: baseline; box-sizing: content-box; }
+#LXB_CONTAINER { z-index: 2147483647; }
+#LXB_CONTAINER .lxb-container { position: fixed; z-index: 2147483647; text-align: left; }
+#LXB_CONTAINER_SHOW .lxb-container-btn-show { position: fixed; width: 26px; height: 50px; cursor: pointer; overflow: hidden; }
+#LXB_CONTAINER_SHOW .lxb-container-btn-show-bg { background: transparent url('btn-show-bg1.png') no-repeat scroll 0px 0px; width: 40px; height: 88px; overflow: hidden; }
+#LXB_CONTAINER .lxb-container-btn-hide { position: absolute; cursor: pointer; overflow: hidden; }
+#LXB_CONTAINER .lxb-pos-right { right: 3px; }
+#LXB_CONTAINER_SHOW .lxb-pos-right { right: 3px; }
+#LXB_CONTAINER input.lxb-cb-input { border: 0px none; font-size: 12px; outline: medium none; overflow: hidden; }
+#LXB_CONTAINER .lxb-cb-input-btn { overflow: hidden; cursor: pointer; line-height: 24px; text-align: center; font-size: 14px; }
+#LXB_CONTAINER .lxb-cb-input-tip { position: absolute; width: 208px; height: 90px; padding: 5px; background: rgb(255, 236, 191) none repeat scroll 0% 0% ! important; font-size: 12px; line-height: 15px; }
+#LXB_CONTAINER .lxb-cb-input-tip-cursor { position: absolute; width: 5px; height: 3px; line-height: 0; overflow: hidden; background: transparent url('cb-tip-icon.png') no-repeat scroll 0px 0px; }
+#LXB_CONTAINER .lxb-pos-right .lxb-cb-input-tip, #LXB_CONTAINER .lxb-pos-right .lxb-cb-success-tip, #LXB_CONTAINER .lxb-pos-right .lxb-cb-loading-tip { right: 0px; }
+#LXB_CONTAINER .lxb-pos-right .lxb-cb-input-tip-cursor { right: 30px; }
+#LXB_CONTAINER .lxb-pos-middle .lxb-cb-input-tip, #LXB_CONTAINER .lxb-pos-bottom .lxb-cb-input-tip, #LXB_CONTAINER .lxb-pos-middle .lxb-cb-success-tip, #LXB_CONTAINER .lxb-pos-bottom .lxb-cb-success-tip { top: -98px; }
+#LXB_CONTAINER .lxb-pos-middle .lxb-cb-input-tip-cursor, #LXB_CONTAINER .lxb-pos-bottom .lxb-cb-input-tip-cursor { bottom: -3px; background-position: 0px -3px; }
+#LXB_CONTAINER .lxb-cb-input-tip-em, #LXB_CONTAINER .lxb-cb-input-tip-mobile, #LXB_CONTAINER .lxb-cb-input-tip-tel { display: block; color: rgb(51, 51, 51); margin-bottom: 3px; }
+#LXB_CONTAINER .lxb-cb-input-tip-em { color: rgb(204, 102, 0); }
+#LXB_CONTAINER .lxb-cb-input-tip-em em { margin: 0px 3px; color: rgb(204, 102, 0); display: inline; font-weight: bold; font-style: normal; text-indent: 0px; text-decoration: none; }
+#LXB_CONTAINER .lxb-cb-input-tip-mobile { background: transparent url('cb-tip-icon.png') no-repeat scroll 0px -8px ! important; padding-left: 15px; }
+#LXB_CONTAINER .lxb-cb-input-tip-tel { background: transparent url('cb-tip-icon.png') no-repeat scroll 0px -22px ! important; padding-left: 15px; }
+#LXB_CONTAINER .lxb-callback-container { position: absolute; width: 100%; bottom: 0px; }
+#LXB_CONTAINER .lxb-vertical .lxb-callback-container .lxb-cb-input { position: absolute; top: auto; }
+#LXB_CONTAINER .lxb-vertical .lxb-callback-container .lxb-cb-input-btn { position: absolute; top: auto; }
+#LXB_CONTAINER .lxb-container-btn-hide { display: none; }
+#LXB_CONTAINER .lxb-container-custom-1-h, #LXB_CONTAINER .lxb-container-custom-2-h { width: 200px; height: 90px; }
+#LXB_CONTAINER .lxb-cb-input { background: rgb(183, 224, 253) none repeat scroll 0% 0%; }
+#LXB_CONTAINER .lxb-container-custom .lxb-cb-input { height: 24px; width: 120px; line-height: 24px; border-radius: 3px; padding: 0px; margin: 0px; }
+#LXB_CONTAINER .lxb-container-custom .lxb-cb-input-btn { font-size: 12px; width: 72px; height: 24px; border: 0px none; border-radius: 3px; }
+#LXB_CONTAINER .lxb-container-custom-2-h .lxb-cb-input, #LXB_CONTAINER .lxb-container-custom-3-h .lxb-cb-input { position: absolute; left: 5px; bottom: 9px; }
+#LXB_CONTAINER .lxb-container-custom-2-h .lxb-cb-input-btn, #LXB_CONTAINER .lxb-container-custom-3-h .lxb-cb-input-btn { position: absolute; right: 5px; bottom: 9px; }
+#LXB_CONTAINER_SHOW .lxb-container-btn-show-custom-right { right: 0px; width: 40px; height: 88px; border-radius: 5px 0px 0px 5px; background: rgb(55, 187, 254) none repeat scroll 0% 0%; }
+#LXB_CONTAINER .lxb-container-custom .lxb-container-btn-hide { background: transparent url('close.png') no-repeat scroll 0px 0px; width: 9px; height: 8px; display: block; right: 2px; top: 2px; }

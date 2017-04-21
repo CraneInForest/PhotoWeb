@@ -1,0 +1,34 @@
+/* ::::: http://www.unclema.com/skin/default/style/style.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: inherit; font-language-override: inherit; font-kerning: inherit; font-synthesis: inherit; font-variant: inherit; font-size: 100%; vertical-align: baseline; }
+html { line-height: 1; }
+table { border-collapse: collapse; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+q::before, q::after, blockquote::before, blockquote::after { content: none; }
+a img { border: medium none; }
+body { background: transparent url('bg.png') repeat scroll 0% 0%; }
+.w990 { width: 990px; margin: 0px auto; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.header { height: 238px; background: transparent url('header_bg.png') no-repeat scroll left top; }
+.header .logo { right: 60px; top: 6px; }
+.header .nav a { bottom: 60px; transition: all 0.25s ease-out 0.15s; }
+.header .nav a:hover { transform: translateY(10px); }
+.header .nav a.nav_btn1 { left: 50px; }
+.header .nav a.nav_btn2 { left: 200px; }
+.header .nav a.nav_btn3 { left: 360px; }
+.header .nav a.nav_btn4 { left: 520px; }
+.telbox { position: fixed; top: 40px; right: 50%; margin-right: 490px; }
+.subtop { padding-bottom: 10px; height: 120px; }
+.subtop .subtop_box { width: 990px; height: 190px; background: transparent url('sub_top.png') no-repeat scroll left top; top: -53px; left: 1px; }
+.subtop .subtop_find { background: transparent url('subtop_find.png') no-repeat scroll 2px top; }
+.list_box { padding-bottom: 10px; z-index: 999; background: transparent url('sub_bg.png') repeat-y scroll 1px center; line-height: 1.8em; font-family: "微软雅黑","Arial","宋体"; }
+.sub_footer { height: 367px; background: transparent url('sub_footer.png') no-repeat scroll 1px top; }
+.content_find { text-align: center; margin-top: -80px; }
+.content_find img { margin-bottom: 20px; }
+.lxmk_btn, .scmk_btn, .zdmk_btn { display: block; width: 175px; height: 60px; }
+.lxmk_btn { top: 90px; left: 240px; }
+.scmk_btn { top: 90px; left: 500px; }
+.zdmk_btn { top: 90px; left: 780px; }
+.sub_footer .scmk_btn, .sub_footer .lxmk_btn, .sub_footer .zdmk_btn { top: 190px; }
+.footer p, .sub_footer p { display: none; }

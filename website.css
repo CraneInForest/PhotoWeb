@@ -1,0 +1,42 @@
+body { font-family: 宋体,Arial Narrow,arial,serif; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-size: 12px; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote { padding: 0px; margin: 0px; }
+li { list-style-type: none; }
+img { vertical-align: top; border: 0px none; }
+ol, ul { list-style: outside none none; }
+.pwdtop { width: 100%; height: 28px; border-bottom: 1px solid rgb(225, 225, 225); margin-bottom: 18px ! important; background: transparent url('topback.jpg') repeat-x scroll 0% 0%; }
+.pwdtop1 { width: 980px; margin: 0px auto; height: 28px; }
+.pwdtop11 { float: right; margin-right: 10px; line-height: 28px; height: 28px; text-align: right; }
+.pwdlogo { width: 980px; height: 54px; margin: 0px auto; }
+.pwdlogo1 { float: left; width: 248px; }
+.pwdmain { width: 980px; height: 340px; margin: 0px auto; }
+.pwdhot { width: 231px; height: 323px; border: 1px solid rgb(199, 223, 241); float: right; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 1px; }
+.pwdcheck { width: 730px; float: left; height: 323px; border: 1px solid rgb(199, 223, 241); background: transparent url('leftback.jpg') repeat-x scroll 0% 0%; padding: 1px; }
+.pwdcheck1 { height: 22px; padding-left: 10px; padding-top: 4px; background: transparent url('titleback.jpg') repeat-x scroll 0% 0%; }
+.pwdcheck3 { font-weight: bold; font-size: 14px; color: rgb(255, 255, 255); line-height: 22px; }
+.pwdcheck4 { padding-top: 24px; height: 190px; padding-left: 25px ! important; padding-right: 6px; padding-bottom: 8px; }
+.pwdfont1 { color: rgb(255, 255, 255); float: right; margin-right: 5px; font-size: 12px; font-weight: normal; }
+.pwdfont2 { height: 37px; float: left; font-size: 14px; font-weight: bold; color: rgb(0, 134, 227); width: 76px; line-height: 37px; }
+.pwdcheck5 { color: rgb(0, 0, 0); float: left; width: 160px; height: 34px; padding-left: 5px ! important; border: 1px solid rgb(255, 153, 102); line-height: 34px; }
+.pwdgg { width: 980px; height: 130px; margin: 0px auto; }
+.pwdgg ul { margin-top: 20px; }
+.pwdgg ul li { float: left; text-align: center; margin-bottom: 12px; list-style: outside none none; width: 245px; height: 45px; word-break: keep-all; white-space: nowrap; display: block; overflow: hidden; }
+.pwdfont5 { font-family: Arial,Helvetica,sans-serif; font-size: 12px; }
+.pwdbq { width: 980px; margin: 0px auto 13px; padding: 0px; }
+a.pwdgray:link, a.pwdgray:visited, a.pwdgray:active { color: rgb(102, 102, 102); text-decoration: none; }
+a.pwdgray:hover { color: rgb(204, 0, 0); text-decoration: underline; }
+a.pwdb:link, a.pwdb:visited, a.pwdb:active { color: rgb(0, 0, 0); text-decoration: none; }
+a.pwdb:hover { color: rgb(204, 0, 0); text-decoration: underline; overflow: hidden; }
+a.pwdl:link, a.pwdl:visited, a.pwdl:active { color: rgb(0, 134, 227); text-decoration: underline; }
+a.pwdl:hover { color: rgb(0, 75, 229); text-decoration: underline; }
+.bblue { color: rgb(0, 134, 227); font-weight: bold; }
+.sitetool { width: 980px; height: 130px; background: transparent url('toolback.jpg') repeat-x scroll 0% 0%; border: 1px solid rgb(199, 223, 241); margin: 0px auto; }
+.sitetitle { width: 968px; height: 26px; background: transparent url('titleback.jpg') repeat-x scroll 0% 0%; margin-left: 1px; margin-top: 1px; padding-left: 10px; padding-top: 5px; font-size: 14px; color: rgb(255, 255, 255); font-weight: bold; }
+.siteurl { width: 975px; height: 50px; text-align: center; line-height: 50px; font-size: 14px; color: rgb(51, 51, 51); font-weight: bold; margin-top: 0px; }
+.siteurl input { width: 400px; height: 25px; line-height: 25px; border: 1px solid rgb(199, 223, 241); margin-top: 5px; }
+.sitebutton { width: 975px; height: 40px; text-align: center; margin-top: 7px; }
+.sitebutton img { border: medium none; }
+a.an_download { text-indent: -999em; float: left; width: 200px; height: 35px; background: transparent url('an_download.gif') no-repeat scroll 0% 0%; cursor: pointer; display: block; }
+a.an_download:hover { background: transparent url('an_download_hover.gif') no-repeat scroll 0% 0%; }
+a.app_download { text-indent: -999em; float: left; margin-left: 20px; width: 200px; height: 35px; background: transparent url('ios_download.gif') no-repeat scroll 0% 0%; cursor: pointer; display: block; }
+a.app_download:hover { background: transparent url('ios_download_hover.gif') no-repeat scroll 0% 0%; }
+* { margin: 0px; padding: 0px; list-style: outside none none; }

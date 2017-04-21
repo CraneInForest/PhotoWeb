@@ -1,0 +1,6 @@
+body { background: rgb(230, 230, 230) none repeat scroll 0% 0%; font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+.m_wording { display: none; text-align: center; }
+.m_icon { background: transparent url('jump.png') repeat scroll 0% 0%; width: 93px; height: 145px; margin: 50px auto 0px; }
+.m_title { font-weight: 700; }
+.m_text { color: rgb(88, 88, 88); }
+.m_text a { color: rgb(33, 141, 226); text-decoration: none; font-weight: 700; }

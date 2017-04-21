@@ -1,0 +1,149 @@
+/* ::::: https://tongji.baidu.com/web/css/white_simple_layout.css?__v=1491543526358 ::::: */
+
+.tabs, body { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.logo, .tab-list { position: relative; }
+body, h1, h2, h3, p { margin: 0px; padding: 0px; }
+body { font-size: 12px; font-family: "Microsoft Yahei",Arial,"宋体"; }
+.l { float: left; }
+.r { float: right; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.no-select { -moz-user-select: none; }
+.span1 { width: 960px; }
+.span2 { width: 665px; }
+.span3 { width: 265px; }
+.white-simple-header-wrapper { border-bottom: 1px solid rgb(231, 231, 231); height: 64px; margin-top: 16px; }
+div.white-simple-header { margin: 0px auto; height: 100%; }
+div.white-simple-header a { text-decoration: none; }
+a, div.footer a { text-decoration: none; }
+.logo { margin-top: -10px; z-index: 1; }
+ul { list-style-type: none; }
+.tabs { width: 100%; height: 43px; border-bottom: 2px solid rgb(240, 240, 240); }
+.tab-list { margin: 0px auto; height: 100%; }
+.login-container { position: absolute; height: 28px; right: 0px; top: 8px; font-size: 13px; }
+.tab-list ul { height: 100%; }
+.tab-list ul li { display: block; float: left; font-size: 16px; line-height: 41px; padding: 0px 5px; margin-right: 45px; }
+.tab-list ul li.selected { border-bottom: 2px solid rgb(55, 128, 211); }
+.tab-list ul li.selected a { color: rgb(55, 128, 211); }
+.white-simple-header div.attention a.social-b-tb, .white-simple-header div.attention a.social-b-tb:hover, .white-simple-header div.attention a.social-s-wb, .white-simple-header div.attention a.social-s-wb:hover, .white-simple-header div.attention a.social-t-wb, .white-simple-header div.attention a.social-t-wb:hover { background-repeat: no-repeat; background-image: url('ws-layout-4755697c4cfec3a727f8d126df07cbf1.png'); }
+.top-nav { position: relative; width: 100%; height: 12px; text-align: right; line-height: 12px; z-index: 2; }
+a { color: rgb(119, 119, 119); transition: color 0.4s ease 0s, background 0.4s ease 0s; }
+a:hover { color: rgb(55, 128, 211); }
+.header-split { color: rgb(223, 223, 223); margin: 0px 8px 0px 12px; }
+.white-simple-header div.attention { position: static; float: right; }
+.attention a, div.register a { transition: none 0s ease 0s ; }
+.white-simple-header div.attention .social { display: block; width: 26px; height: 26px; float: right; margin-right: 7px; }
+.white-simple-header div.attention a.social-s-wb { background-position: left 0px; }
+.white-simple-header div.attention a.social-s-wb:hover { background-position: left -46px; }
+.white-simple-header div.attention a.social-t-wb { background-position: left -92px; }
+.white-simple-header div.attention a.social-t-wb:hover { background-position: left -138px; }
+.white-simple-header div.attention a.social-b-tb { margin-right: 66px; background-position: left -184px; }
+.white-simple-header div.attention a.social-b-tb:hover { background-position: left -230px; }
+.attention-wrap { position: absolute; right: 0px; top: 20px; }
+.white-simple-header div.attention-wrap span { cursor: pointer; font-size: 12px; color: rgb(119, 119, 119); font-weight: 400; line-height: 26px; padding-right: 18px; }
+.white-simple-header div.attention-wrap .dimensional-trigger { position: absolute; right: 0px; top: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); padding: 0px 3px 3px 5px; z-index: 3; }
+.white-simple-header div.attention-wrap .dimensional-trigger span { background-repeat: no-repeat; background-image: url('ws-layout-4755697c4cfec3a727f8d126df07cbf1.png'); background-position: right -276px; }
+.dimensional-code { position: absolute; top: 29px; right: 0px; background: transparent url('dimensional.png') no-repeat scroll 0% 0%; width: 166px; height: 335px; z-index: 1; }
+div.footer { color: rgb(119, 119, 119); text-align: center; margin: 90px auto 0px; padding-bottom: 45px; height: 20px; line-height: 20px; clear: both; }
+div.footer a { padding-left: 2px; }
+/* ::::: https://tongji.baidu.com/web/css/login.css?__v=1491543526358 ::::: */
+
+#SliderLoading, .product, .slider-btn { text-align: center; }
+body, form, h2, li, ol, p, table, td, th, tr, ul { margin: 0px; padding: 0px; }
+ul { list-style-type: none; }
+.tabs { background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 100%; height: 43px; border-bottom: 2px solid rgb(240, 240, 240); }
+.slide-shortcut-next, .slide-shortcut-prev, .slider-btn li, .slider-btn li.on, .slider-btn-control, .slider-btn-control ul { background-repeat: no-repeat; }
+.slide-shortcut-next, .slide-shortcut-next:hover, .slide-shortcut-prev, .slide-shortcut-prev:hover, .slider-btn li, .slider-btn li.on, .slider-btn-control, .slider-btn-control ul { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); }
+.tab-list { position: relative; margin: 0px auto; height: 100%; }
+.login-container { position: absolute; height: 28px; right: 0px; top: 8px; font-size: 13px; }
+.tab-list ul { height: 100%; }
+.tab-list ul li { display: block; float: left; font-size: 16px; line-height: 41px; padding: 0px 5px; margin-right: 45px; }
+.tab-list ul li.selected { border-bottom: 2px solid rgb(55, 128, 211); }
+.tab-list ul li.selected a { color: rgb(55, 128, 211); }
+.dazzle-button, .dazzle-button span { color: rgb(119, 119, 119); height: 26px; display: inline-block; }
+.dazzle-button { cursor: pointer; margin-right: 4px; }
+.dazzle-button span { padding: 0px 12px; font-size: 14px; line-height: 25px; transition: background-color 0.2s ease 0s; }
+.login-trigger { border: 1px solid rgb(0, 116, 174); }
+.login-trigger:hover { border: 1px solid rgb(1, 125, 186); }
+.login-trigger:active { border: 1px solid rgb(0, 113, 169); }
+.login-trigger span { color: rgb(255, 255, 255); font-size: 13px; background-color: rgb(0, 136, 204); }
+.login-trigger:hover span { background-color: rgb(0, 145, 217); }
+.login-trigger:active span { background-color: rgb(0, 128, 192); }
+.register-trigger { border: 1px solid rgb(169, 169, 169); margin-right: 0px; }
+.register-trigger:hover { border-color: rgb(184, 184, 184); }
+.register-trigger:active { border-color: rgb(176, 176, 176); }
+.register-trigger span { font-size: 13px; background-color: rgb(202, 202, 203); }
+.register-trigger:hover span { background-color: rgb(210, 210, 210); }
+.register-trigger:active span { background-color: rgb(196, 196, 196); }
+#SliderLoading { color: rgb(119, 119, 119); font: 15px/399px Arial; }
+.slide { position: relative; height: 399px; box-shadow: 0px 2px 3px rgb(170, 170, 170); }
+#SlidesInteractive .slide-shortcut a { position: absolute; cursor: pointer; top: 167px; color: rgb(102, 102, 102); line-height: 0; font-size: 0px; width: 65px; height: 65px; transition: none 0s ease 0s ; }
+.slide-shortcut-prev { left: 15px; background-position: left -51px; }
+.slide-shortcut-next { right: 15px; background-position: left -136px; }
+.slide-shortcut-prev:hover { background-position: left -221px; }
+.slide-shortcut-next:hover { background-position: left -306px; }
+#SlidesContainer { width: 100%; height: 399px; margin: 0px auto; }
+.slider-btn { position: absolute; bottom: 20px; height: 20px; width: 100%; }
+.slider-btn-control { display: inline-block; padding-left: 10px; background-position: left -455px; }
+.container, div.footer { background: transparent url('login-bg.png') repeat scroll 0% 0%; }
+.dialog-bottom-bg, .dialog-close, .news-sep, .products .datamarket .product-img, .products .datamarket .product-img:hover, .products .dc .product-img:hover, .products .mtj .product-img, .products .mtj .product-img:hover, .products .stj .product-img, .products .stj .product-img:hover, .products .tj .product-img, .products .tj .product-img:hover, .products .tj-open .product-img, .products .tj-open .product-img:hover, .products .tj-pro .product-img, .products .tj-pro .product-img:hover, .products .tuijian .product-img, .products .tuijian .product-img:hover, .products .webmaster .product-img, .products .webmaster .product-img:hover { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); }
+div.footer { margin-top: 0px; padding: 20px 0px; }
+.constent .content { display: block; margin: 0px auto; padding: 30px 0px 5px; }
+.analytics-title, .service-title { margin-bottom: 18px; height: 23px; }
+.service-title { margin-top: 28px; }
+.analytics-title span, .service-title span { color: rgb(255, 255, 255); display: inline-block; font-size: 16px; line-height: 22px; padding: 0px 7px; height: 23px; background-color: rgb(55, 128, 211); }
+.product { display: inline-block; width: 148px; margin-right: 20px; }
+.products .last { margin-right: 0px; }
+.product-img { height: 95px; width: 95px; margin: 0px auto 18px; }
+.product-img a { height: 100%; width: 100%; display: block; }
+.product-name { font-size: 14px; color: rgb(68, 68, 68); margin-bottom: 5px; }
+.product-desc, .product-type { color: rgb(119, 119, 119); }
+.products .tj .product-img { background-repeat: no-repeat; background-position: left -535px; }
+.products .tj .product-img:hover { background-position: left -650px; }
+.products .tj-pro .product-img { background-repeat: no-repeat; background-position: left -765px; }
+.products .tj-pro .product-img:hover { background-position: left -880px; }
+.products .mtj .product-img { background-repeat: no-repeat; background-position: left -995px; }
+.products .mtj .product-img:hover { background-position: left -1110px; }
+.products .tj-open .product-img { background-repeat: no-repeat; background-position: left -1225px; }
+.products .tj-open .product-img:hover { background-position: left -1340px; }
+.products .dc .product-img { background-repeat: no-repeat; background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -1685px; }
+.products .dc .product-img:hover { background-position: left -1800px; }
+.products .webmaster .product-img { background-repeat: no-repeat; background-position: left -1915px; }
+.products .webmaster .product-img:hover { background-position: left -2030px; }
+.products .datamarket .product-img { background-repeat: no-repeat; background-position: left -2145px; }
+.products .datamarket .product-img:hover { background-position: left -2260px; }
+.products .stj .product-img { background-repeat: no-repeat; background-position: left -2375px; }
+.products .stj .product-img:hover { background-position: left -2490px; }
+.products .datamarket .dazzle-button, .products .dc .dazzle-button, .products .tj-open .dazzle-button, .products .tuijian .dazzle-button, .products .webmaster .dazzle-button { float: none; }
+.product-buttons { margin-top: 12px; overflow: hidden; }
+.product-buttons .links { border: 1px solid rgb(207, 207, 207); float: left; }
+.product-buttons .links span { padding: 0px 8px; background-color: rgb(255, 255, 255); }
+.product-buttons .last { margin-right: 0px; }
+.product-buttons .links:hover span { background-color: rgb(245, 245, 245); }
+.product-buttons .links:active span { background-color: rgb(238, 238, 238); }
+.cases-title .title, .typical-title .title, .updates-title .title { color: rgb(68, 68, 68); font-size: 18px; border-left: 4px solid rgb(55, 128, 211); padding-left: 5px; height: 21px; line-height: 21px; }
+.cases-details, .updates-details { margin-top: 25px; width: 100%; }
+.cases-details li, .updates-details li { margin-bottom: 10px; overflow: hidden; }
+.cases-details li { margin-bottom: 18px; }
+.updates-details li a { width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; }
+.updates-details li .dot { width: 3px; height: 3px; background-color: rgb(119, 119, 119); float: left; margin: 7px 6px 7px 0px; }
+.cases-details li .share-item { color: rgb(119, 119, 119); line-height: 22px; }
+.blog-date, .case-date { color: rgb(170, 170, 170); }
+.case-date { float: right; margin-top: 3px; }
+.news { margin-left: 28px; }
+.news-sep { width: 100%; height: 24px; margin: 20px 0px 10px; background-repeat: no-repeat; background-position: left -2605px; }
+.news .more { color: rgb(153, 153, 153); }
+.news .more:hover { color: rgb(55, 128, 211); }
+.typical-users { border-bottom: 1px solid rgb(231, 231, 231); margin: 0px auto; border-top: 1px solid rgb(231, 231, 231); padding: 30px 0px; }
+.typical-details { position: relative; width: 100%; height: 50px; margin-top: 15px; overflow: hidden; }
+.typical-details .slide-shortcut a { position: absolute; cursor: pointer; top: 9px; line-height: 0; font-size: 0px; width: 28px; height: 28px; transition: none 0s ease 0s ; }
+.slide-shortcut .typical-slide-shortcut-prev { left: 0px; background-repeat: no-repeat; background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3134px; }
+.slide-shortcut .typical-slide-shortcut-next { right: 0px; background-repeat: no-repeat; background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3180px; }
+.slide-shortcut .typical-slide-shortcut-prev:hover { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3226px; }
+.slide-shortcut .typical-slide-shortcut-next:hover { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3272px; }
+.slide-shortcut .typical-slide-shortcut-prev:active { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3318px; }
+.slide-shortcut .typical-slide-shortcut-next:active { background-image: url('login-48e6d3b3f4ad34b7405476e9ae1ab152.png'); background-position: left -3364px; }
+#TypicalSliderContainer { height: 50px; }
+#TypicalSlider { margin-left: 14px; height: 50px; }
+/* ::::: https://tongji.baidu.com/web/image/dynamic/typicalImages/loginTypical.min.css?_v=1492432177 ::::: */
+
