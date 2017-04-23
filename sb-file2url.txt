@@ -237,9 +237,9 @@ ws-layout-4755697c4cfec3a727f8d126df07cbf1.png	https://tongji.baidu.com/web/css/
 dimensional.png	https://tongji.baidu.com/web/css/decorator/layout/ws/dimensional.png
 login-48e6d3b3f4ad34b7405476e9ae1ab152.png	https://tongji.baidu.com/web/css/decorator/login-48e6d3b3f4ad34b7405476e9ae1ab152.png
 login-bg.png	https://tongji.baidu.com/web/css/decorator/login-bg.png
-default_014.html	http://unclemax.taobao.com/
+http://www.taobao.com	http://www.taobao.com/
 default_014.css	true
-favicon_001.ico	https://www.taobao.com/favicon.ico
+favicon_001.ico	https://http://www.taobao.com/favicon.ico
 img	https://gqrcode.alicdn.com/img?type=cs&shop_id=63065113&seller_id=531589472&w=140&h=140&el=q&v=1
 s.gif	https://assets.alicdn.com/s.gif
 t2x2nnxa0bxxxxxxxx_531589472.jpg	https://gdp.alicdn.com/imgextra/i1/531589472/T2X2nNXa0bXXXXXXXX_!!531589472.jpg
