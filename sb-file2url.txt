@@ -89,7 +89,7 @@ pregroup.png	http://www.unclema.com/skin/default/images/pregroup.png
 prepage.png	http://www.unclema.com/skin/default/images/prepage.png
 nextpage.png	http://www.unclema.com/skin/default/images/nextpage.png
 nextgroup.png	http://www.unclema.com/skin/default/images/nextgroup.png
-default_002.html	http://www.unclema.com/index.php?c=article&a=type&tid=6
+diary.html	http://www.unclema.com/index.php?c=article&a=type&tid=6
 default_002.css	true
 261244105766.jpg	http://www.unclema.com/uploads/2016/12/261244105766.jpg
 261231565025.jpg	http://www.unclema.com/uploads/2016/12/261231565025.jpg
