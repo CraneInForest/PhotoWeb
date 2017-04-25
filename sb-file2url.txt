@@ -279,7 +279,7 @@ black.png	https://gdp.alicdn.com/L1/142/1312847/modules/tshop-pbsm-shop-nav-ch/a
 tb2ee2rxnak.ebjszfbxxagmxxa-531589472.jpg	https://gdp.alicdn.com/imgextra/i2/531589472/TB2EE2RXNaK.eBjSZFBXXagMXXa-531589472.jpg
 t1mmpaxknjxxaxezbh-48-70.png	https://img.alicdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png
 t1i_56xl0wxxxxxxxx-104-1.png	https://img.alicdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png
-default_015.html	http://www.unclema.com/index.php?c=article&id=100
+default.html	default.html
 default_015.css	true
 212050371053.jpg	http://www.unclema.com/uploads/2016/01/212050371053.jpg
 212050492931.jpg	http://www.unclema.com/uploads/2016/01/212050492931.jpg
