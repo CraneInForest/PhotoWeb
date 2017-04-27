@@ -22,7 +22,7 @@ body { background: transparent url('bg.png') repeat scroll 0% 0%; }
 .header .nav a.nav_btn3 { left: 360px; }
 .header .nav a.nav_btn4 { left: 520px; }
 .focus { background: transparent url('repeatbg.png') repeat-y scroll left center; padding-bottom: 10px; height: 480px; }
-.focus .focus_box { width: 925px; height: 528px; overflow: hidden; background-color: rgb(87, 68, 56); top: -40px; left: 30px; border-radius: 15px; }
+.focus .focus_box { background-color:transparent;width: 925px; height: 528px; overflow: hidden; top: -40px; left: 30px; border-radius: 15px; }
 .seemark_t { height: 114px; overflow: hidden; }
 .seemark { background: transparent url('repeatbg.png') repeat-y scroll 1px center; padding-bottom: 10px; }
 .seemark .seemark_c { width: 956px; margin: 0px auto; text-align: justify; }
